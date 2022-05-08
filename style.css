@@ -16,7 +16,7 @@
 
 .img_user-icon {
     position: absolute;
-    top: 20px;
+    top: 40px;
     left: 20px;
     width: 60px
 }
@@ -27,8 +27,8 @@
 }
 
 .head {
-    background-color: darkturquoise;
-    height: 50px;
+    background-color: teal;
+    height: 70px;
 }
 
 .img_location-icon {
@@ -62,4 +62,8 @@ p.location {
 
 .edit-profile {
     margin-bottom: 10px;
+}
+
+a {
+    color: teal;
 }
