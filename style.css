@@ -14,7 +14,7 @@ img {
 .container {
     position: absolute;
     top: 10%;
-    left: 25%;
+    left: 20%;
     display: flex;
     flex-direction: column;
     border: 2px solid silver;
@@ -39,15 +39,20 @@ img {
     display: flex;
     flex: 2;
     flex-direction: column;
-    margin-left: 40px;
+    margin-left: 30px;
     justify-content: center;
 }
 
-.name {}
+.name {
+    font-size: 30px;
+    margin-top: 10px;
+}
 
 .location {
     display: flex;
     flex-direction: row;
+    margin-top: 5px;
+    align-items: flex-start;
 }
 
 .img_location-icon {
@@ -57,17 +62,23 @@ img {
 
 p.location {
     margin-left: 10px;
+    flex: 0 0 auto;
 }
 
-.job {}
+.job {
+    margin-top: 10px;
+}
 
 .edit {
     display: flex;
     flex: 0 0 auto;
+    align-items: flex-end;
+    margin-top: 5px;
 }
 
 .img_edit-profile {
     width: 15px;
+    height: 15px;
 }
 
 a.edit {
