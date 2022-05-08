@@ -6,7 +6,7 @@ This is a for Coding Dojo Bootcamp May 2022 - CSS section - Position Section
 
 This one was interesting for me.<br/>
 I struggled in the first go with it.<br/>
-I new to do the poisitioning part but forgot to incorporate more flexbox.<br/>
+I knew to do the poisitioning part but forgot to incorporate more flexbox.<br/>
 I finished the assignment, but was not happy about it, and did not submit it.<br/>
 I went to bed, and in the middle of the night I woke up, remembering about the Flexbox Froggy game and then new how I wanted do it.
 
