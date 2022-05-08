@@ -26,14 +26,18 @@ img {
 }
 
 .img_user-icon {
-    width: 40px;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    width: 80px;
 }
 
 .content {
     display: flex;
     flex: 2;
     flex-direction: column;
-    margin-left: 75px;
+    margin-left: 40px;
+    justify-content: center;
 }
 
 .name {}
