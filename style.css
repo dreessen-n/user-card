@@ -11,7 +11,7 @@
     top: 40px;
     left: 200px;
     width: 500px;
-    border: 2px solid black;
+    border: 2px solid silver;
 }
 
 .img_user-icon {
@@ -22,19 +22,41 @@
 }
 
 .content {
-    padding-top: 40px;
+    padding-top: 35px;
     padding-left: 20px;
 }
 
 .head {
-    background-color: seagreen;
+    background-color: darkturquoise;
     height: 50px;
 }
 
 .img_location-icon {
-    width: 15px;
+    width: 10px;
+    height: 20px;
 }
 
 .img_edit-profile-icon {
     width: 15px;
+    margin-right: 5px;
+    padding-top: 10px;
 }
+
+.name {
+    font-size: 25px;
+}
+
+.location {
+    margin-top: 5px;
+    display: flex;
+}
+
+p.location {
+    padding-left: 10px;
+    align-items: flex-start;
+}
+
+.job {
+    margin-top: 5px;
+}
+
