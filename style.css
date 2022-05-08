@@ -7,63 +7,23 @@
 }
 
 .container {
-    position: absolute;
-    top: 40px;
-    left: 200px;
-    width: 500px;
-    border: 2px solid silver;
-}
-
-.img_user-icon {
-    position: absolute;
-    top: 40px;
-    left: 25px;
-    width: 60px
-}
-
-.content {
-    padding-top: 35px;
-    padding-left: 20px;
-}
-
-.head {
-    background-color: teal;
-    height: 70px;
-}
-
-.img_location-icon {
-    width: 10px;
-    height: 20px;
-}
-
-.img_edit-profile-icon {
-    width: 15px;
-    margin-right: 5px;
-    padding-top: 10px;
-}
-
-.name {
-    font-size: 25px;
-}
-
-.location {
-    margin-top: 5px;
     display: flex;
 }
 
-p.location {
-    padding-left: 10px;
-    align-items: flex-start;
+.head {}
+
+.content {
+    display: flex;
 }
 
-.job {
-    margin-top: 5px;
+.name {}
+
+.location {
+    display: flex;
 }
 
-.edit-profile {
-    margin-bottom: 10px;
-}
+.job {}
 
-a {
-    color: teal;
+.edit {
+    display: flex;
 }
