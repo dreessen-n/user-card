@@ -6,24 +6,63 @@
     box-sizing: border-box;
 }
 
-.container {
-    display: flex;
+
+img {
+    width: 20px;
 }
 
-.head {}
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid silver;
+    flex: 0 0 auto;
+    width: 500px;
+    height: 300px;
+}
+
+.head {
+    flex: 1;
+    background-color: teal;
+}
+
+.img_user-icon {
+    width: 40px;
+}
 
 .content {
     display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-left: 75px;
 }
 
 .name {}
 
 .location {
     display: flex;
+    flex-direction: row;
+}
+
+.img_location-icon {
+    flex: 0 0 auto;
+    width: 15px;
+}
+
+p.location {
+    margin-left: 10px;
 }
 
 .job {}
 
 .edit {
     display: flex;
+    flex: 0 0 auto;
+}
+
+.img_edit-profile {
+    width: 15px;
+}
+
+a.edit {
+    margin-left: 10px;
 }
